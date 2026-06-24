@@ -4,7 +4,7 @@ class Lsc < Formula
   desc "eza listing with an aligned per-file comment column"
   homepage "https://github.com/crufi/eza-comments"
   url "https://github.com/crufi/eza-comments/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "e5e6af5c3c9becbfee37906f48aa0f3944cfd515950ca21a7862d0e7097169f0"
   license "MIT"
 
   depends_on "eza"
