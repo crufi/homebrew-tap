@@ -29,4 +29,3 @@ class Lsc < Formula
     assert_match "lsc #{version}", shell_output("#{bin}/lsc --version")
   end
 end
-
