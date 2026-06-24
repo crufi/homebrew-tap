@@ -1,7 +1,7 @@
 class Lsc < Formula
   include Language::Python::Shebang
 
-  desc "eza listing with an aligned per-file comment column"
+  desc "Adds a per-file comment column to eza listings"
   homepage "https://github.com/crufi/eza-comments"
   url "https://github.com/crufi/eza-comments/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "e5e6af5c3c9becbfee37906f48aa0f3944cfd515950ca21a7862d0e7097169f0"
@@ -29,3 +29,4 @@ class Lsc < Formula
     assert_match "lsc #{version}", shell_output("#{bin}/lsc --version")
   end
 end
+
