@@ -14,6 +14,7 @@ class Lsc < Formula
     bin.install "lsc.py" => "lsc"
     rewrite_shebang detected_python_shebang, bin/"lsc"   # point #!/env python3 at brew's python
     pkgshare.install "lsc.sh"                            # -> <prefix>/share/lsc/lsc.sh
+    man1.install "man/lsc.1" if File.exist?("man/lsc.1")
   end
 
   def caveats
